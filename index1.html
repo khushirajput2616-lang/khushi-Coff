@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Landing Page</title>
+     <style>
+     * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    body {
+    background: #fff;
+    color: #333;
+    }
+
+    h1,
+    h2 {
+    text-align: center;
+    color: #d65642;
+    margin-bottom: 40px;
+    }
+
+    .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    }
+    .features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    }
+
+    .feature-box {
+    text-align: center;
+    width: 23%;
+    min-width: 200px;
+    }
+
+    .feature-box img {
+    width: 80px;
+    margin-bottom: 15px;
+    }
+
+    .feature-box h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    }
+
+    .feature-box p {
+    font-size: 14px;
+    color: #666;
+    }
+    .guest-section {
+    margin-top: 40px;
+    }
+
+    .guest-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+    .card {
+    width: 30%;
+    min-width: 270px;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    }
+    .card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 0px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+    margin: 15px 0 8px;
+    }
+
+    .card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    }
+
+    .btn {
+    background: #d65642;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    }
+    .products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    }
+
+    .product-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    }
+
+    .product-box h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    }
+
+    .product-box p {
+    font-size: 13px;
+    color: #666;
+    }
+    @media (max-width: 768px) {
+    .features {
+    justify-content: center;
+    gap: 30px;
+    }
+
+    .guest-cards {
+    justify-content: center;
+    gap: 20px;
+    }
+
+    .card {
+    width: 80%;
+    }
+    }
+    </style>
+</head>
+
+<body align="center">
+
+    <div class="container">
+
+        <h1>Get ready for seamless online music</h1>
+
+        <!-- FEATURES -->
+        <div class="features">
+            <div class="feature-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/0/532.png" alt="">
+                <h3>Offline mode</h3>
+                <p>Save and listen anywhere.</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="">
+                <h3>High quality audio</h3>
+                <p>Enjoy the full range of sound.</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/3917/3917773.png" alt="">
+                <h3>No ads</h3>
+                <p>Enjoy nonstop music.</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/929/929430.png" alt="">
+                <h3>Unlimited skips</h3>
+                <p>Just tap skip.</p>
+            </div>
+        </div>
+
+        <!-- GUEST CARDS -->
+        <h2>Featured Guests</h2>
+
+        <div class="guest-cards">
+
+            <div class="card">
+                <img src="image.png" alt="">
+                <h3>Talwiinder</h3>
+                <p>"His music blends emotion and energy in a way that connects instantly with listeners". </p>
+                <a href="#" class="btn">Register</a>
+            </div>
+
+            <div class="card">
+                <img src="image copy.png" alt="">
+                <h3>Gini</h3>
+                <p>"Gini is an Indian singer-songwriter and producer from Dehradun known for her soulful, genre-blending music that incorporates both Hindi and English"</p>
+                <a href="#" class="btn">Register</a>
+            </div>
+
+            <div class="card">
+                <img src="image copy 2.png" alt="">
+                <h3>Anuv Jain</h3>
+                <p>He is one of the best singers,his songs very relxing</p>
+                <a href="#" class="btn">Register</a>
+            </div>
+
+        </div>
+
+        <!-- BUY WHAT'S NEW -->
+        <h2>BUY WHAT'S NEW</h2>
+        <div class="products">
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80" alt="">
+                <h4>Garage Band</h4>
+                <p>Radio Station</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80" alt="">
+                <h4>Garage Band</h4>
+                <p>Radio Station</p>
+            </div>
+
+            <div class="product-box">
+                <img src="image copy 3.png" alt="">
+                <h4>Garage Band</h4>
+                <p>Radio Station</p>
+            </div>
+
+            <div class="product-box">
+                <img src="image copy 7.png" alt="">
+                <h4>Garage Band</h4>
+                <p>Radio Station</p>
+            </div>
+            <div class="product-box">
+                <img src="image copy 6.png" alt="">
+                <h4>Garage Band</h4>
+                <p>Radio Station</p>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
